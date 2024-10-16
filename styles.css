@@ -1,8 +1,14 @@
+@import url("styles/header.css");
 :root {
     --cor-de-fundo: #EBECEE;
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
 
