@@ -15,6 +15,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"
         />
+        <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="styles.css" />
       </head>
 </head>
@@ -59,7 +60,33 @@
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lancamentos</h2>
+        <h2 class="carrossel__titulo">Novos lancamentos</h2>
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafla e spring boot da alura books"></div>
+    <div class="swiper-slide"><img src="img/Lideranca.svg" alt="Livro sobre lideranca em design da alura books"></div>
+    <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre Javascript assertivo da alura books"></div>
+    <div class="swiper-slide"><img src="Guia Front-end.svg" alt="Livro guia front end"></div>
+    <div class="swiper-slide"><img src="Portugol.svg" alt="Livro sobre Portugol"></div>
+    <div class="swiper-slide"><img src="Acessibilidade.svg" alt="Livro sobre acessibilidade"></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
