@@ -16,3 +16,7 @@
  .wiper-button-next {
     display: none;
 }
+
+.swiper-pagination {
+    position: initial;
+}
